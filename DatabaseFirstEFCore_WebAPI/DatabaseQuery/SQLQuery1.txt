@@ -1,0 +1,26 @@
+﻿create database DatabaseFirstDB_Core
+
+use DatabaseFirstDB_Core
+
+-------------------------------------------------
+
+create table Student (
+Id int primary key identity,
+Name varchar(50),
+Gender varchar(50),
+Age int,
+Standard int)
+
+select * from Student
+
+-------------------------------------------------
+
+create table Employee (
+Id int primary key identity,
+Name varchar (50),
+Designation varchar(50),
+Salary int)
+
+select * from Employee
+
+-------------------------------------------------
